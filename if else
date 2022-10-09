@@ -1,0 +1,15 @@
+x1= int(input("enter center of circle coordinate x1"))
+y1= int(input("enter center of circle coordinate y1"))
+
+r= int(input("enter circle radius"))
+
+x=int(input("enter arbitrary point x"))
+y=int(input("enter arbitrary point y"))
+
+f1=((x1-x)**2+(y1-y)**2)**.5
+if f1==r:
+    print("point is on the circle")
+elif f1>r:
+    print("point is outside the circle")
+else:
+    print("point is inside the circle") 
