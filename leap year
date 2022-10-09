@@ -1,0 +1,6 @@
+# w a p to check weather given no year is leap year or not 
+a=int(input("enter year"))
+if a%400==0 or a%4==0 and a%100 !=0 :
+    print("year is a leap year")
+else:
+    print("year is not a leap year")
