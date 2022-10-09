@@ -1,0 +1,14 @@
+'''
+#program to input two no and subtract the smaller no from the greater no.
+a=int(input("enter no a"))
+b=int(input("enter no b"))
+if a>b:
+    print("sol is",a-b)
+else:
+    print("sol is",b-a)
+'''
+
+a=int(input("enter no a"))
+b=int(input("enter no b"))
+out=abs(a-b)
+print(out)
